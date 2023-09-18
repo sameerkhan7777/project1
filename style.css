@@ -36,3 +36,22 @@ a{
     green 100%
   );
 }
+.section1 button {
+    margin-top: 1.5rem;
+    outline: none;
+    border: none;
+    background: green;
+    color: white;
+    padding: 7px 40px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+.section2 .custom-column{
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom:1rem ;
+}
+.section2 img:hover{
+    transform: scale(1.1);
+    transition: all 200ms ease-in-out;
+}
