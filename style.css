@@ -55,3 +55,27 @@ a{
     transform: scale(1.1);
     transition: all 200ms ease-in-out;
 }
+.contact_section2  .custom-card{
+    display: flex;
+    gap:1rem;
+    align-items: flex-start;  
+}
+.contact_section2  .custom-card i{
+    /* border: 1px solid yellow; */
+    border-radius: 50%;
+    line-height: 1;
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: #414040;
+    color: green;
+    transition: all 200ms linear;
+}
+.contact_section2  .custom-card:hover i{
+    background-color: green;
+    color: white;
+}
+.contact_section2  .custom-card h1{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.5rem;
+}
+.contact_section2  .custom-card p{}
