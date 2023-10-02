@@ -1,81 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900&display=swap');
 *{
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'poppins' , sans-serif;
+    box-sizing: border-box;
 }
 body{
-    font-family: 'Lato', sans-serif;
-    background: #000000;
+    background: #0000;
     color: #fff;
 }
-a{
-    color: inherit;
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(images/header-image.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10pc 8px;
+    position: relative;
 }
-.navbar {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-}
-.navbar .social-icons{
-    color: #fff;
-}
-.section1{
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-}
-.section1 h1{
-    font-family: 'Roboto Serif', serif;
-}
-.section1 h1 span{
-    background: linear-gradient(
-    to bottom,
-    #000 0%,
-    #000 50%,
-    green 50%,
-    green 100%
-  );
-}
-.section1 button {
-    margin-top: 1.5rem;
-    outline: none;
-    border: none;
-    background: green;
-    color: white;
-    padding: 7px 40px;
-    border-radius: 4px;
-    text-transform: uppercase;
-}
-.section2 .custom-column{
-    border-radius: 4px;
-    overflow: hidden;
-    margin-bottom:1rem ;
-}
-.section2 img:hover{
-    transform: scale(1.1);
-    transition: all 200ms ease-in-out;
-}
-.contact_section2  .custom-card{
+nav{
     display: flex;
-    gap:1rem;
-    align-items: flex-start;  
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
 }
-.contact_section2  .custom-card i{
-    /* border: 1px solid yellow; */
-    border-radius: 50%;
-    line-height: 1;
-    padding: 1rem;
-    font-size: 1.2rem;
-    background-color: #414040;
-    color: green;
-    transition: all 200ms linear;
+.logo{
+    width: 150px;
+    cursor: pointer;
 }
-.contact_section2  .custom-card:hover i{
-    background-color: green;
-    color: white;
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
 }
-.contact_section2  .custom-card h1{
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 1.5rem;
+.language-btn{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+
 }
-.contact_section2  .custom-card p{}
